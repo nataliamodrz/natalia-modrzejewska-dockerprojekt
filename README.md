@@ -1,0 +1,5 @@
+- Sklonuj repozytorium lub pobierz pliki  
+- Otwórz terminal i przejdź do folderu projektu  
+- Zbuduj obraz: docker build -t natalka-api .  
+- Uruchom aplikację: docker run -p 5000:5000 natalka-api  
+- Przetestuj w przeglądarce: http://localhost:5000/api/v1.0/predict?number1=3&number2=4
